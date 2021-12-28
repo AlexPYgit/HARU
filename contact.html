@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./Image/LOGO/logo détouré.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styleMenu.css" />
+    <link rel="canonical" href="https://example.com"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>HARU | Flavie</title>
+    <meta name="description" content="à faire" />
+    <script defer type="text/javascript" src="SendMail.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_z9L9TeGYSZeSFCwLAvimk");
+      })();
+    </script>
+    <script type="text/javascript">
+      console.log();
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo">
+          <a href="/">
+            <img src="./Image/LOGO/logo détouré.png" alt="logo d'entreprise" />
+          </a>
+        </div>
+        <div id="menu_toogle">
+          <a id="link" href="#"><span id="burger"></span></a>
+          <ul class="list-unstyled menu_mobil">
+            <li><a href="/">Accueil</a></li>
+            <li><a href="abonnement.html">Abonnement</a></li>
+            <li><a href="à propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div id="menu_desktop">
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="abonnement.html">Abonnement</a></li>
+            <li><a href="à propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact</h1>
+        <p>
+          Pastry lollipop cheesecake dragée toffee gingerbread. Chocolate danish
+          jelly icing bear claw. Cake tart sweet roll tootsie roll jelly-o
+          donut. Carrot cake chocolate bar biscuit marshmallow cotton candy
+          gummi bears bonbon sugar plum sugar plum.
+        </p>
+      </section>
+      <section id="positionFormulaire">
+        <form id="formulaire" class="rounded">
+          <div class="identiter">
+            <input type="name" placeholder="Prénom" id="firstName" />
+            <input type="name" placeholder="Nom" id="lastName" />
+          </div>
+          <input type="email" placeholder="Email" id="email" />
+          <div class="choiceBox">
+            <div>
+              <input type="checkbox" value="Je veux" id="iWant_1" />
+              <label>Je veux</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Je veux 2" id="iWant_2" />
+              <label>Je veux 2</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Je veux 3" id="iWant_3" />
+              <label>Je veux 3</label>
+            </div>
+          </div>
+          <textarea id="message" placeholder="votre message"></textarea>
+          <div>
+            <input id="envoyer" type="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script type="text/javascript" src="scriptMenu.js"></script>
+</html>
