@@ -1,0 +1,17 @@
+{
+  "name": "site-en-html",
+  "version": "1.0.0",
+  "description": "pahse 1 du site HARU",
+  "main": "SendMail.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alex'Web",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.1.0",
+    "emailjs-com": "^3.2.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

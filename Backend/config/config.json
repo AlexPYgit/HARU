@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "fla",
+    "password": "FlaHARU",
+    "database": "HARU",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "fla",
+    "password": "FlaHARU",
+    "database": "HARU",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "fla",
+    "password": "FlaHARU",
+    "database": "HARU",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

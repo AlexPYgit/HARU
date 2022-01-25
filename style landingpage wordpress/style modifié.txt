@@ -1,0 +1,38 @@
+.post-thumbnail img{
+	width:200px !important;
+}
+#masthead{
+	display:none;
+}
+#image-large figure img{
+		clip-path: polygon(0 0, 100%       0, 60% 100%, 0% 100%);
+	border-radius:20px 0 0 20px
+	}
+
+	#carte{
+		background-color:#D9A23D;
+	border-radius:20px;
+	padding:4%;
+ }
+
+@media screen and (max-width: 425px) {
+
+/* 	image carré coin arrondi sur mobile */
+	#image-large figure img{
+	clip-path: polygon(0 0, 100%       0, 100% 100%, 0% 100%);
+	border-radius:20px 20px 20px       20px;
+
+	}
+	
+/* émoji dans la carte contact	 */
+	#rotate-hand img{
+  transform: rotate(0.25turn);	
+	}
+	
+/* 	Copiright */
+	.powered-by{
+		width:95%;
+	}
+
+	
+}

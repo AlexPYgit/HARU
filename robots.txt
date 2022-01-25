@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disalow: /style.css/
+Disalow: /style landingpage/
+Disalow: /Image/
+Disalow: /node_modules/
+
+
+Sitemap : https://flavie-haru.com/Sitemap.xml

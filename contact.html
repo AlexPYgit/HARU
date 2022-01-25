@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./Image/LOGO/logo détouré.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styleMenu.css" />
+    <link rel="canonical" href="https://example.com"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>HARU | Flavie</title>
+    <meta name="description" content="à faire" />
+    <script defer type="text/javascript" src="SendMail.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_z9L9TeGYSZeSFCwLAvimk");
+      })();
+    </script>
+   
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo">
+          <a href="/">
+            <img src="./Image/LOGO/logo détouré.png" alt="logo d'entreprise" />
+          </a>
+        </div>
+        <div id="menu_toogle">
+          <a id="link" href="#"><span id="burger"></span></a>
+          <ul class="list-unstyled menu_mobil">
+            <li><a href="/">Accueil</a></li>
+            <li><a href="abonnement.html">Abonnement</a></li>
+            <li><a href="à propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div id="menu_desktop">
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="abonnement.html">Abonnement</a></li>
+            <li><a href="à propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact</h1>
+        <p>
+          Si vous souhaitez être accompagné, je vous invite à prendre contact avec moi :
+        </p>
+      </section>
+      <section id="positionFormulaire">
+        <form id="formulaire" class="rounded" >
+          <div class="identiter full">
+            <input type="name" placeholder="Prénom" id="firstName" />
+            <input type="name" placeholder="Nom" id="lastName" />
+          </div>
+          <div class="full" >
+            <input type="number" placeholder="Téléphone" id="tel" />
+          </div>
+          <input  type="email" placeholder="Email" id="email" />
+          <div class="choiceBox">
+            <div>
+              <input type="checkbox" value="Je veux" id="iWant_1" />
+              <label> L’accompagnement “INDÉ” m’intéresse, je voudrais en discuter.</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Je veux 2" id="iWant_2" />
+              <label> L’accompagnement “COLLAB”, je voudrais en discuter.</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Je veux 3" id="iWant_3" />
+              <label> Je suis intéressé mais j’ai besoin d’être orienté.</label>
+            </div>
+            <div>
+              <input type="checkbox" value="Je veux 3" id="iWant_4" />
+              <label> Autre.</label>
+            </div>
+            <div style="width: 100%;height: 50px; border-bottom: 1px dashed rgb(85, 56, 45);" ></div>
+            <div>
+              <input type="checkbox" value="Je veux 3" id="iWant_5" />
+              <label> Je souhaite être contacté par mail. (Pensez à surveiller vos spams.)</label>
+            </div>
+             <div>
+              <input type="checkbox" value="Je veux 3" id="iWant_6" />
+              <label> Je souhaite être contacté par téléphone.</label>
+            </div>
+          </div>
+          <textarea id="message" placeholder="Si vous le souhaitez, vous pouvez ajouter un message ici."></textarea>
+          <div>
+            <input id="envoyer" type="submit" />
+          </div>
+        </form>
+      </section>
+     
+    </main>
+    <footer></footer>
+  </body>
+  <script type="text/javascript" src="scriptMenu.js"></script>
+</html>
